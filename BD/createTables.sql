@@ -31,5 +31,4 @@ create table Corrida (
             on update no action
 );
 
-
 describe corrida;
