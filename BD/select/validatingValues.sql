@@ -1,1 +1,0 @@
-SELECT * FROM Taxi WHERE AnoFab > 2000;
