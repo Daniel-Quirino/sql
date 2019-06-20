@@ -7,3 +7,8 @@ SELECT Cliente.CliId, Cliente.Nome, Corrida.CliId, Corrida.Placa, Corrida.DataPe
 SELECT Cl.Nome, Co.DataPedido, Co.Placa, T.Modelo
        FROM Cliente Cl, Corrida Co, Taxi T
        WHERE Cl.CliId = Co.CliId AND Co.Placa = T.Placa;
+
+-- Modelos de taxi tomados por cada cliente
+SELECT Cl.Nome, Ta.Modelo 
+    FROM Cliente Cl, Taxi Ta, Corrida Co
+    WHERE Cl.CliId = Co.CliId AND Co.Placa = Ta.Placa

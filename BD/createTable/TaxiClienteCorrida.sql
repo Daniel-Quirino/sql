@@ -1,4 +1,4 @@
-use cadastro;
+/* Taxi - Cliente - Corrida */
 
 create table Taxi (
 	Placa varchar(7) not NULL,

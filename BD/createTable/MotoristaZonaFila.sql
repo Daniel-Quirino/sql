@@ -1,3 +1,5 @@
+/* Motorista - Zona - Fila */
+
 CREATE TABLE Motorista (
   CNH VARCHAR(6) NOT NULL,
   Nome VARCHAR(80) NOT NULL,

@@ -1,3 +1,5 @@
+/* Taxi - Cliente - Corrida */
+
 INSERT INTO Cliente VALUES ('1532', 'Asdrúbal', '448.754.253-65');
 INSERT INTO Cliente VALUES ('1755', 'Doriana', '567.387.387-44');
 INSERT INTO Cliente VALUES ('1780', 'Quincas', '546.373.762-02');
@@ -20,6 +22,8 @@ INSERT INTO Taxi VALUES ('MJN6578', 'Wolkswagen', 'Santana', 1998, 'KL856326');
 INSERT INTO Taxi VALUES ('MLA4545', 'Wolkswagen', 'Gol', 2000, 'YK6574837');
 INSERT INTO Taxi VALUES ('DXA7878', 'Ford', 'Escort', 2000, 'GG5263526');
 INSERT INTO Taxi VALUES ('DXF6767', 'Wolkswagen', 'Santana', 1998, 'YK7890081');
+
+/* Motorista - Zona - Fila */
 
 INSERT INTO Motorista VALUES ('657483', 'Asdrubal', 1, 'DXF5263');
 INSERT INTO Motorista VALUES ('567892', 'Quincas', 1, 'MLA4545');
